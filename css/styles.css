@@ -6,7 +6,7 @@ body{
 
 .container {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     align-items: flex-end;
 }
 
@@ -17,6 +17,17 @@ space around nav items
 font size 30px
 color: red */
 
+@media only screen and (max-width: 920px) {
+    .container {
+        display: flex;
+        justify-content: space-around;
+        font-size: 30px;
+    }
+    a:link {
+        color: red;
+    }
+}
+
 /* 600px:
 column display
 center 
@@ -24,7 +35,20 @@ background color blue
 font color white 
 hover color yellow */
 
-
+@media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: blue;
+    }
+    a:link {
+        color: white;
+    }
+    a:hover {
+        color: yellow;
+    }
+}
 
 /* 3. Make the div class main flex with the following properties:
 

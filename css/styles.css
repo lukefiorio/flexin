@@ -4,6 +4,11 @@ body{
 
 /* 1. Make the nav class container flex and have it displayed in a row to the right of the browser */
 
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+}
 
 /* 2. add media queries for both 920px and 600px breakpoints with the following properties:*/
 
@@ -18,6 +23,7 @@ center
 background color blue 
 font color white 
 hover color yellow */
+
 
 
 /* 3. Make the div class main flex with the following properties:

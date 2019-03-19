@@ -114,6 +114,10 @@ add your own properties for each of the breakpoints. */
 /* 6. Change the order of the letters in the block-order div to the following:
 CADB */
 
+.block-order {
+    display: flex;
+    flex-direction: column;
+}
 
 /*Bonus: Access font-awesome https://fontawesome.com/icons?d=gallery to add 4 social media icons of your choice in the div class social.
 
